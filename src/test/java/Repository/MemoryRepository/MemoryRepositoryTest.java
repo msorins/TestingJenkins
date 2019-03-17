@@ -46,5 +46,7 @@ public class MemoryRepositoryTest
         }catch(ValidatorException ex){
             assertTrue(ex.getMessage().contains("Grupa invalid"));
         }
+
+        assertTrue(false);
     }
 }
