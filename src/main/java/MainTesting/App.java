@@ -1,6 +1,10 @@
-package MainPackage;
+package MainTesting;
 
-public class App
+/**
+ * Hello world!
+ *
+ */
+public class App 
 {
     public static void main( String[] args )
     {
