@@ -14,6 +14,7 @@ public class MemoryRepositoryTest
 {
     @Test
     public void shouldSuccessfullyAddStudent() throws ValidatorException {
+        assertTrue(false);
         StudentValidator vs=new StudentValidator();
         StudentRepo studentRepo = new StudentRepo(vs);
         Student student = new Student(
@@ -30,6 +31,7 @@ public class MemoryRepositoryTest
 
     @Test
     public void shouldThrowWhenGivenIncorrectGroupId() throws ValidatorException {
+        assertTrue(false);
         StudentValidator vs=new StudentValidator();
         StudentRepo studentRepo = new StudentRepo(vs);
         Student student = new Student(
@@ -46,7 +48,5 @@ public class MemoryRepositoryTest
         }catch(ValidatorException ex){
             assertTrue(ex.getMessage().contains("Grupa invalid"));
         }
-
-        assertTrue(false);
     }
 }
