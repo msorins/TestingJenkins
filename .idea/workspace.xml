@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2ebad2-df0f-453c-b06e-2fc87dcfa920" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,27 +24,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
           <entry key="txt" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="364" />
+          <entry key="java" value="366" />
           <entry key="xml" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="364" />
+          <entry key="JAVA" value="366" />
           <entry key="XML" value="93" />
         </counts>
       </usages-collector>
@@ -61,11 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
+            <state relative-caret-position="232">
+              <caret line="231" selection-start-line="231" selection-end-line="231" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -95,6 +104,7 @@
       <find>surfir</find>
       <find>sunfire</find>
       <find>935</find>
+      <find>No</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,6 +116,7 @@
         <option value="$PROJECT_DIR$/XMLStdTests.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" />
       </list>
     </option>
   </component>
@@ -160,6 +171,14 @@
               <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
               <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabTestingJenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,7 +207,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553101601127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553102354931" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -314,17 +333,11 @@
       <updated>1552829508130</updated>
       <workItem from="1552829509447" duration="1625000" />
       <workItem from="1552835015078" duration="848000" />
-      <workItem from="1553099335430" duration="2000000" />
+      <workItem from="1553099335430" duration="2444000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MemoryRepositoryTest_testNameNOk - 2019.03.20 at 18h 58m 00s.xml">
-      <configuration name="MemoryRepositoryTest.testNameNOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoryRepositoryTest_testNameNOk - 2019.03.20 at 18h 58m 34s.xml">
-      <configuration name="MemoryRepositoryTest.testNameNOk" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MemoryRepositoryTest_testNameNOk - 2019.03.20 at 18h 58m 48s.xml">
       <configuration name="MemoryRepositoryTest.testNameNOk" configurationId="JUnit" />
     </history-entry>
@@ -349,15 +362,21 @@
     <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 04m 31s.xml">
       <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 06m 39s.xml">
+      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryRepositoryTest - 2019.03.20 at 19h 18m 44s.xml">
+      <configuration name="MemoryRepositoryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4473000" />
+    <option name="totallyTimeSpent" value="4917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30525032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22954823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -366,7 +385,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3091837" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3091837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,8 +446,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Repository/MemoryRepository/MemoryRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
+        <state relative-caret-position="232">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
