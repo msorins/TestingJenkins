@@ -3,10 +3,16 @@ package Repository.MemoryRepository;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
+import Domain.Nota;
 import Domain.Student;
 import Exceptions.ValidatorException;
+import Validator.NotaValidator;
 import Validator.StudentValidator;
 import org.junit.Test;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 /**
  * Unit test for Memory Repository
