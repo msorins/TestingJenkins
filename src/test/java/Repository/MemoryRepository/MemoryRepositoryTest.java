@@ -274,4 +274,19 @@ public class MemoryRepositoryTest
             assertTrue(ex.getMessage().contains("Indrumator invalid"));
         }
     }
+
+    @Test
+    public void shouldAddGradeTest(){
+        NotaValidator nv = new NotaValidator();
+        NotaRepo notaRepo = new NotaRepo(nv);
+
+        Nota nota = new Nota(1, "testId", 1, 10, null);
+        try{
+            notaRepo.save(nota);
+            assertTrue(true);
+        }catch(Exception ex){
+            assertTrue(false);
+        }
+    }
+
 }
